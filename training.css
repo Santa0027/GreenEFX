@@ -99,21 +99,21 @@ body{
     text-transform: uppercase;
     /* box-shadow: 0px 0px 4px 0px #0e3e18 */
     /* background-color: white; */
-}
 
-    #t1{
+
+    &:nth-child(1){
     border: block;
     background-color: white;
     }
 
-    #t2{
+     &:nth-child(2){
     border-width: 0;
     }
 
-    #t3{
+     &:nth-child(3){
     border-width: 0;
     }
-
+}
 #animation_video{
     margin: auto;
     display: block;
@@ -147,6 +147,35 @@ body{
   font-size: 1.7rem;
   text-transform: uppercase;
 }
+
+.animation-title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
+    font-size: 3rem;
+    color: #7fa629;   
+}
+.animationcontainer1{
+    
+    background-image:linear-gradient(to right,rgba(249, 252, 248, 0.993) 30%,rgba(191, 238, 167, 0)),
+    url(requirment/img/person-using-ar-technology-perform-their-occupation.jpg);
+    background-size:cover;
+    background-position: 100% 40%;
+    height: 40rem;
+    margin: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1000px){
     .dip1_mobile{
