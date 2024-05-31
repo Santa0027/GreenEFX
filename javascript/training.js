@@ -7,7 +7,7 @@ const containers = document.querySelectorAll('.container');
 
 
 containers.forEach((container,index) => {
-    container.addEventListener('click', function (event) {
+    container.addEventListener('mouseover', function (event) {
        
         var clickedIndex = index + 1; // Adjust for 1-based indexing
 
@@ -134,53 +134,3 @@ function todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3) {
         
 };    
                             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     dipP1.style.display = "block";
-//     dipP2.style.display = "none";
-//     dipP3.style.display = "none"; 
-//     t1.style.borderWidth= "1px";
-//     btn2.style.borderWidth= "0";
-//     t3.style.borderWidth= "0";
-//     t1.style.backgroundColor = "white";
-//     t2.style.backgroundColor = "rgba(0,0,0,0)";
-//     t3.style.backgroundColor = "rgba(0,0,0,0)";
-//     console.log("ex");
-// }
-
-// function change2(){
-//     dipP1.style.display = "none";
-//     dipP2.style.display = "block";
-//     dipP3.style.display = "none";
-//     t1.style.borderWidth= "0";
-//     t2.style.borderWidth= "1px";
-//     t3.style.borderWidth= "0";
-//     t1.style.backgroundColor = "rgba(0,0,0,0)";
-//     t2.style.backgroundColor = "white";
-//     t3.style.backgroundColor = "rgba(0,0,0,0)";
-//     console.log("ex");
-// }
-
-// function change3() {
-//     dipP1.style.display = "none";
-//     dipP2.style.display = "none";
-//     dipP3.style.display = "block";
-//     t1.style.borderWidth= "0";
-//     t2.style.borderWidth= "0";
-//     t3.style.borderWidth = "1px";
-//     t1.style.backgroundColor = "rgba(0,0,0,0)";
-//     t2.style.backgroundColor = "rgba(0,0,0,0)";
-//     t3.style.backgroundColor = "white";
-// //     console.log("ex");

@@ -1406,10 +1406,11 @@ strong{
     }
 
     .info-contain{
-        width: 90% !important;
+        width: 67% !important;
         /* max-width: 372.2px; */
         /* margin: 0.5rem; */
-        padding: 1rem;
+        margin: auto;
+        padding-right: 5rem;
     }
 
     .form-contain{
