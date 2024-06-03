@@ -1,10 +1,10 @@
-body{
+body {
     padding: 0;
     margin: 0;
     z-index: 1;
     /* overflow: auto; */
     /* overflow: hidden; */
-    background-image: linear-gradient(rgb(255, 255, 255) 30%,rgba(255, 255, 255, 0)),url(requirment/img/2147746709.jpg) ;
+    background-image: linear-gradient(rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0)), url(requirment/img/2147746709.jpg);
     background-position: 10%, 10%;
     background-size: cover;
     background-attachment: fixed;
@@ -20,7 +20,7 @@ body{
     /* background: linear-gradient(to right, rgba(255, 255, 255, 0) ,rgb(255, 255, 255), rgba(255, 255, 255, 0)); */
 }
 
-.tcourse-container{
+.tcourse-container {
     padding-top: 2rem;
     width: 50%;
     margin: auto;
@@ -30,18 +30,18 @@ body{
     font-size: 1rem;
 }
 
-.par{
+.par {
     line-height: 1.5;
     letter-spacing: 1px;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
 }
 
-.parg{
-    line-height: 1.5;
+.parg {
+    line-height: 2;
     letter-spacing: 1px;
     font-family: "Open Sans", sans-serif;
-    font-size: 0.96rem;
+    font-size: 1rem;
 }
 
 .dip1 {
@@ -62,7 +62,7 @@ body{
 
 
 
-.dip1-container{
+.dip1-container {
     width: 60%;
     height: 100%;
     margin: auto;
@@ -70,14 +70,14 @@ body{
 }
 
 
-.dip2-container{
+.dip2-container {
     width: 60%;
     height: 100%;
     margin: auto;
     margin-right: 5rem;
 }
 
-.dip1-content{
+.dip1-content {
     border: 1px solid #0e3e18;
     margin-top: 1rem;
     height: 13rem;
@@ -89,32 +89,37 @@ body{
     box-shadow: 1px 5px 15px #0e3e18;
 }
 
-.dip1-button span{
-    padding: 1.1rem 3rem;
-    border-radius: 9px 9px 0px 0px ;
+.dip1-button span {
+    padding: 1.1rem 1rem;
+    border-radius: 9px 9px 0px 0px;
     margin: 0;
     cursor: pointer;
     border: 1px solid #0e3e18;
-    border-bottom:1px solid white;
+    border-bottom: 1px solid white;
     text-transform: uppercase;
     /* box-shadow: 0px 0px 4px 0px #0e3e18 */
     /* background-color: white; */
 
 
-    &:nth-child(1){
-    border: block;
-    background-color: white;
+    &:nth-child(1) {
+        border: block;
+        background-color: white;
     }
 
-     &:nth-child(2){
-    border-width: 0;
+    &:nth-child(2) {
+
+        border-width: 0;
     }
 
-     &:nth-child(3){
-    border-width: 0;
+    &:nth-child(3) {
+        border-width: 0;
     }
+
 }
-#animation_video{
+
+
+
+#animation_video {
     margin: auto;
     display: block;
     width: 80%;
@@ -122,89 +127,176 @@ body{
     margin-top: 4rem;
     box-shadow: 1px 10px 20px #0e3e18;
     border-radius: 20px;
-   /* height: 50%; */
+    /* height: 50%; */
 
 }
 
-.dip1-p1{
+.dip1-p1 {
     display: block;
 }
 
-.dip1-p2{
-    display: none; 
-}
-
-.dip1-p3{
+.dip1-p2 {
     display: none;
 }
 
-.headings{
+.dip1-p3 {
+    display: none;
+}
+
+.headings {
     font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  color: #7fa629;
-  text-align: center;
-  padding: 2rem;
-  font-size: 1.7rem;
-  text-transform: uppercase;
+    font-weight: 600;
+    color: #7fa629;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    width: 100%;
 }
 
-.animation-title h1{
+.animation_container {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.641), rgba(255, 255, 255, 0.501)), url(requirment/img/gd.jpg);
+    background-size: contain;
+    padding: 2rem;
+    height: 73.5rem;
+    border-radius: 15px;
+    box-shadow: 1px 5px 15px #0e3e18;
+}
+
+.adv_animation {
+    display: grid;
+    grid-template: auto / auto auto auto;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    justify-items: center;
+    justify-self: center;
+    width: 100%;
+    /* margin: auto; */
+    /* margin-left: 2rem; */
+}
+
+.align {
+    margin-top: 1rem !important;
+    margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin: 8rem;
-    font-size: 3rem;
-    color: #7fa629;   
+    gap: 3rem;
 }
-.animationcontainer1{
-    
-    background-image:linear-gradient(to right,rgba(249, 252, 248, 0.993) 30%,rgba(191, 238, 167, 0)),
-    url(requirment/img/person-using-ar-technology-perform-their-occupation.jpg);
-    background-size:cover;
-    background-position: 100% 40%;
-    height: 40rem;
-    margin: 5rem;
+
+#adv_eff {
+    width: 20rem;
 }
 
 
+/* #adv_3dvfx{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#adv_eff{
+    grid-column-start: 3;
+    grid-column-end: 4;
+} */
+
+/* #Adv_chaeEfc{
+    grid-column-start: 3;
+    grid-column-end: 4;
+} */
+
+.adv_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* imaposition: 30%, 100%; */
+}
+
+.img_container {
+    width: 50%;
+}
+
+.adv_content {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.866);
+    height: 30rem;
+    box-shadow: 1px 5px 10px #0e3e18;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.adv_content1 {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.892);
+    box-shadow: 1px 5px 10px #0e3e18;
+    height: 30rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.animation_container p {
+    width: 90%;
+    margin: auto;
+}
+
+.animation_container h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    padding-top: 1rem;
+
+}
+
+.footer-content {
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 30%, rgba(175, 251, 168, 0));
+}
 
 
 
-
-
-
-
-
-
-
-@media screen and (max-width: 1000px){
-    .dip1_mobile{
+@media screen and (max-width: 1000px) {
+    .dip1_mobile {
         flex-direction: column;
-        height: 50rem;
+        height: 100%;
         width: 95%;
+
     }
 
     .dip1-container {
         width: 100%;
-        height: 45rem;
-        margin: 1rem;
-           
+        height: 100%;
+        margin: 0.5rem;
     }
 
-    .dip1-button span{
+
+    .dip1-button {
+        margin-bottom: 1rem;
+    }
+
+    .dip1 {
+        padding-bottom: 0%;
+    }
+
+    .dip1-button span {
         padding: 1rem 1.3rem;
-        border-radius: 9px 9px 0px 0px ;
-        width: auto;
-        margin: 0;
+        border-radius: 9px 9px 9px 9px;
+        width: 74%;
+        margin: auto;
         cursor: pointer;
         border: 1px solid #0e3e18;
-        border-bottom:1px solid white;
+        /* border-bottom:1px solid white; */
         text-transform: uppercase;
         /* box-shadow: 0px 0px 4px 0px #0e3e18 */
         /* background-color: white; */
+        display: flex;
+        flex-direction: column;
+        border-width: block !important;
     }
 
-    .dip1-content{
+    .dip1-content {
         /* margin-top: 0.3rem; */
         height: 20rem;
         width: 79%;
@@ -216,9 +308,50 @@ body{
         box-shadow: 1px 5px 15px #0e3e18;
     }
 
-    .dip1-content span p{
-       height: 100%;
-       margin: 0;
-       margin-bottom: 1rem;
+    .dip1-content span p {
+        height: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+
     }
+
+    .tcourse-container {
+        width: 80%;
+        position: absolute;
+        right: 3rem;
+        height: 50;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .video_contariner {
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        padding: 0.5rem;
+        margin-top: 10rem;
+        border-radius: 20px;
+        margin-bottom: 1rem;
+
+
+    }
+
+    #animation_video {
+        height: 80%;
+        width: 93%;
+        position: relative;
+        box-shadow: 8px 6px 10px #0e3e18;
+        margin: 1rem;
+    }
+
+    /* diploma in graphic designing */
+
+    .par {
+        width: 100%;
+
+
+    }
+
+
+
 }
