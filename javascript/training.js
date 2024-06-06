@@ -1,5 +1,5 @@
-
 AOS.init();
+
 const btns = document.querySelectorAll('.buttons');
 
 
@@ -134,3 +134,40 @@ function todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3) {
         
 };    
                             
+let nextButton = document.getElementById('next_btn');
+let prvButton = document.getElementById('prv_btn'); 
+// let section = document.querySelectorAll('.section');
+
+const slides = document.querySelectorAll('.section');
+let index = 0;
+
+function prevSlide(){
+    slides[index].classList.remove('active');
+    index--;
+
+    if(index < 0)
+        index = slides.length -1;
+
+    slides[index].classList.add('active');      
+
+}
+
+prvButton.addEventListener('click', e => {
+    prevSlide();
+});
+
+function nextSlide(){
+    slides[index].classList.remove('active');
+    index++;
+
+    if(index > slides.length -1)
+        index = 0;
+
+    slides[index].classList.add('active');  
+        
+    console.log(slides[index]);
+}
+
+nextButton.addEventListener('click', e => {
+    nextSlide();
+});
